@@ -42,4 +42,3 @@ while True:
             continue
         exp = Expense(int(amount), cat.pk)
         exp_repo.add(exp)
-        print(exp)
